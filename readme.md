@@ -17,20 +17,34 @@
 13. Trading platform names Eg: trading view
 14. Tf Idf score
 15. Bag of words
-16. stemming and lematisation
+16. stemming and lemmatization
 
-## 2. Stemming and preprocessing Pipe line
+## 2. Stemming and preprocessing Pipeline
 
-![script link](preprocessing_script.py)
+[script link](preprocessing_script.py)
 
 ## 3. Descriptions for preprocessing pipeline
 
 1. Take a data frame column
 2. Convert to lower case
 3. Tokenize the data
-4. Check the data is alpha numeric
+4. Check the data is alpha-numeric
 5. Remove punctuations
-6. Create stems for each tokens
-7. Return the cleaned data
+6. Create stems for each token
+7. Return the cleaned data column
+```
+input = df['Messages'] after removing emojis
 
-## 4. Data Analysis Note book
+For single input:
+
+❗️New users are restricted until they ➡️ [CLICK HERE](https://telegram.me/CryptoGroupsBot?start=-1001059287525_1721158735_8c037afbbedabf97f1c7461f2857901e) ⬅️ and pass the captcha or be kicked.
+
+Output:
+user restrict click HTTP pass captcha kick
+
+the same process will be applied to all rows
+
+````
+
+## 4. Data Analysis Notebook
+[Notebook link](test.ipynb)
