@@ -15,9 +15,7 @@
 11. Most Frequent words and word frequency
 12. Popular Payment methods mentioned
 13. Trading platform names Eg: trading view
-14. Tf Idf score
-15. Bag of words
-16. stemming and lemmatization
+14. stemming and lemmatization
 
 ## 2. Stemming and preprocessing Pipeline
 
